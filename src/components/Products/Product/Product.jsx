@@ -6,7 +6,6 @@ import {
   CardActions,
   Typography,
   IconButton,
-  Icon,
 } from '@material-ui/core';
 
 import { AddShoppingCart } from '@material-ui/icons';
