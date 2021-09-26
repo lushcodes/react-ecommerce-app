@@ -9,9 +9,11 @@ import {
   Typography,
 } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
-import logo from '../../assests/logo.png';
+import logo from '../../assests/logo.PNG';
+import useStyles from './styles';
 
 const Navbar = () => {
+  const classes = useStyles();
   return (
     <>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
@@ -20,7 +22,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Blitz VST"
-              height="25px"
+              height="100px"
               className={classes.image}
             />
             Blitz VST
@@ -38,16 +40,5 @@ const Navbar = () => {
     </>
   );
 };
-
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Badge,
-  MenuItem,
-  Menu,
-  Typography,
-} from '@material-ui/core';
-import { ShoppingCart } from '@material-ui/icons';
 
 export default Navbar;
