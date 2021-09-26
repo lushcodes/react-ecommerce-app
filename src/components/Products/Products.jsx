@@ -6,16 +6,19 @@ import Product from './Product/Product';
 const products = [
   {
     id: 1,
-    name: 'Shoes',
-    description: 'Running shoes',
-    price: '£50',
+    name: 'Massive',
+    description: 'Massive X',
+    price: '£499',
+    image: 'https://mixedinkey.com/wp-content/uploads/2020/07/FL-Massive.png',
   },
 
   {
     id: 2,
-    name: 'Macbook',
-    description: 'Apple macbook',
+    name: 'Omnisphere',
+    description: 'Omnisphere',
     price: '£899',
+    image:
+      'https://www.spectrasonics.net/products/omnisphere/images/slideshow26/Omnisphere-2-Slide-20.jpg',
   },
 ];
 
