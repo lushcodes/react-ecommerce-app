@@ -18,7 +18,7 @@ import useStyles from './styles';
 const steps = ['Shipping Address', 'Payment Details'];
 
 const Checkout = () => {
-  const [activeStep, setActiveStep] = useState(2);
+  const [activeStep, setActiveStep] = useState(0);
   const classes = useStyles();
 
   const Form = () => (activeStep === 0 ? <AddressForm /> : <PaymentForm />);
