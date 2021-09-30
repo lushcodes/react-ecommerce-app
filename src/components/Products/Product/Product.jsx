@@ -9,6 +9,7 @@ const Product = ({ product, onAddToCart }) => {
 
   return (
     <Card className={classes.root}>
+      {console.log(`HERE IS THE THING ${product.toString()}`)}
       <CardMedia className={classes.media} image={product.media.source} title={product.name} />
       <CardContent>
         <div className={classes.CardContent}>
