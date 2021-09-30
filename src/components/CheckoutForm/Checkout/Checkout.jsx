@@ -15,7 +15,12 @@ const Checkout = ({ cart }) => {
   const [shippingData, setShippingData] = useState({});
   const classes = useStyles();
 
-  const Form = () => (activeStep === 0 ? <AddressForm checkoutToken={checkoutToken} next={next} /> : <PaymentForm shippingData={shippingData} />);
+  const Form = () =>
+    activeStep === 0 ? (
+      <AddressForm checkoutToken={checkoutToken} next={next} />
+    ) : (
+      <PaymentForm shippingData={shippingData} checkoutToken={checkoutToken} />
+    );
 
   useEffect(() => {
     const generateToken = async () => {
