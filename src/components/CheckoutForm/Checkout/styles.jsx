@@ -1,4 +1,3 @@
-import { Container } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
@@ -49,9 +48,5 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  buttonContainer: {
-    display: 'flex',
-    justifyContent: 'space-between',
   },
 }));
