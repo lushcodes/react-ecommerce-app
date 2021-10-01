@@ -11,9 +11,10 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
     return (
       <Typography variant="subtitle1">
         You have no items in your cart!
-        <Link to="/" className={classes.link}>
-          Go back to the shop
-        </Link>
+        <br />
+        <Button component={Link} to="/" size="large" type="button" variant="contained" color="secondary">
+          Back to Shop
+        </Button>
       </Typography>
     );
   };
