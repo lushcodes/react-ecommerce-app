@@ -1,7 +1,7 @@
 # React E-Commerce App (Blitz VST)
 
 This is a mobile responsive e-commerce app built with React and Commerce.js. It is also hooked up to the Stripe API to manage payments.
-You can find a deployed version of the site [here:](https://blitzvst.netlify.app/)
+You can find a deployed version of the site [here](https://blitzvst.netlify.app/)
 
 
 ## How To Run
