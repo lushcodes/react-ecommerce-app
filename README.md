@@ -14,3 +14,15 @@ THEN:
 
 Dependencies :
 React-router / Material UI/Icons / Commerce.js / Stripe.js / Hook Form
+
+
+## Process
+
+### Set Up
+
+1. I began by running ```npx create-react-app``` in the terminal to build out the folder and file structure.
+2. I then installed the dependencies I would need: ```npm install @material-ui/core @material-ui/icons @chec/commerce.js @stripe/react-stripe-js @stripe/stripe-js react-router-dom react-hook-form```.
+3. In index.js I imported the react and react-dom dependencies as well as the app.js file which points to the index.html file via a div with the id of 'root'.
+4. Then in app.js, I created a functional component returning a single div with text inside.
+5. I then ran npm start to see if everything had been hooked up correctly on local host.
+
