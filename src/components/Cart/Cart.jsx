@@ -12,7 +12,7 @@ const Cart = ({ cart, handleUpdateCartQty, handleRemoveFromCart, handleEmptyCart
       <Typography variant="subtitle1">
         You have no items in your cart!
         <br />
-        <Button component={Link} to="/" size="large" type="button" variant="contained" color="secondary">
+        <Button component={Link} to="/" size="large" type="button" variant="contained">
           Back to Shop
         </Button>
       </Typography>
